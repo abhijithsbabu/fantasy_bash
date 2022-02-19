@@ -1,0 +1,152 @@
+#login-box{
+    position: absolute;
+width: 40%;
+height: 70%;
+background: rgba(85, 0, 0, 0.56);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+left: 30%;
+top: 15%;
+border-radius: 20px;
+
+}
+#signup
+{
+position: absolute;
+width: 50%;
+height: 12%;
+background: rgba(214, 0, 0, 0.56);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 20px 0px 0px;
+border:none;
+font-size: larger;
+font-weight: bolder;
+color: rgb(255, 255, 255);
+right:0;
+}
+#login
+{
+position: absolute;
+width: 50%;
+height: 12%;
+background: rgba(214, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px 0px 0px 0px;
+border: none;
+font-size: larger;
+font-weight: bolder;
+color: rgb(255, 255, 255);
+left:0;
+}
+
+#form_log
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 95%;
+    height:80%;
+}
+#form_sign
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 95%;
+    height:80%;
+    display: none;
+}
+label{
+    position: absolute;
+    height:10%;
+    text-align: left;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.label2{
+    top: 25%;
+}
+
+.label5{
+    top:50%
+}
+
+input{
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    border-radius: 10px;
+    top:10%;
+    border: rgb(255, 0, 55) solid;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.438);
+}
+
+input[type=text]{
+    top:10%;
+}
+input[type=password]
+{
+    top:35%;
+}
+#confirm
+{
+    top:60%;
+}
+
+#submit{
+    position: absolute;
+    bottom: 10%;
+    width:30%;
+    height: 10%;
+    left: 35%;
+    border-radius: 10px;
+    border:none;
+    background-color: #ae020d;
+    color:aliceblue;
+}
+
+@media only screen and (max-width:768px) {
+    #login-box{
+        position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 15%; 
+    }
+
+    #signup
+    {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    right:0;
+    }
+
+    #login
+    {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    left:0;
+    }
+
+    #submit{
+        position: absolute;
+        bottom: 10%;
+        width:40%;
+        height: 10%;
+        left: 30%;
+        border-radius: 10px;
+        font-size: large    ;
+        border:none;
+        background-color: #ae020d;
+        color:aliceblue;
+    }
+}
